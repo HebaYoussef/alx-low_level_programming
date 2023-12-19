@@ -10,11 +10,15 @@
 
 int main(void)
 {
-	char a;
+	char a, b;
 
-	for (a = '0'; a <= 'f'; a++)
+	for (a = '0'; a <= '9'; a++)
 	{
 	putchar(a);
+	}
+	for (b = 'a'; a <= 'f'; a++)
+	{
+	putchar(b);
 	}
 	putchar('\n');
 	return (0);

@@ -4,7 +4,7 @@
 
 /**
  * main -  prints the lowercase alphabet in reverse
- * return: Always 0 (success)
+ * Return: Always 0 (success)
  *
  **/
 

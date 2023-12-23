@@ -3,15 +3,14 @@
 /**
  * _isupper - check if a letter is upper
  * @x: The letter  to be checked
- * Return: 1 for uppercase 0 for lower case 
- **/
+ * Return: 1 for uppercase 0 for any other 
+ */
 
 int _isupper(int x)
 {
 	if (x >= 65 && x <= 90)
 	{
-	return(1);
+	return (1);
 	}
-	printf("\n");
-	return(0);
+	return (0);
 }

@@ -5,7 +5,7 @@
  * @str: the string thats length is needed
  * Return: The length of @str
  */
-int _strlen(char *s)
+int _strlen(char *str)
 {
 	size_t length = 0;
 

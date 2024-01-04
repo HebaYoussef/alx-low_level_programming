@@ -2,7 +2,7 @@
 
 /**
  * _atoi - convert a string into anint
- * @s: the pointer to convert 
+ * @s: the pointer to convert
  * Return: the integer
  */
 

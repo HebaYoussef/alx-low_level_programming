@@ -4,7 +4,7 @@
  * _strspn - entry point
  * @s: input
  * @accept: input
- * Return: Always 0
+ * Return: the number of byte in initail s
  */
 
 unsigned int _strspn(char *s, char *accept)

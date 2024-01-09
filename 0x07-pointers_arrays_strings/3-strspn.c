@@ -14,22 +14,22 @@ unsigned int _strspn(char *s, char *accept)
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-	found = 0;
+		found = 0;
 
-	for (j=0; accept[j] != '\0'; j++)
-	{
-	if (accept[j] == s[i])
-	{
-	found = 1;
-	break;
-	}
-	}
+		for (j=0; accept[j] != '\0'; j++)
+		{
+			if (accept[j] == s[i])
+			{
+				found = 1;
+				break;
+			}
+		}
 
-	if (found == 0)
-	{
-	break;
-	}
-	count++;
+		if (found == 0)
+		{
+			break;
+		}
+		count++;
 	}
 	return (count);
 }
